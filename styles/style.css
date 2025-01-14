@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 @import url(./header.css);
+@import url(./main.css);
 @import url(./footer.css);
 
 :root {
@@ -71,22 +72,24 @@
     }
 
     h1 {
-        font-size: var(--font-size-3xl);
+        font-size: var(--font-size-2xl);
         font-weight: var(--font-weight-bold);
+        color: var(--color-titulo);
     }
 
     h2 {
-        font-size: var(--font-size-2xl);
+        font-size: var(--font-size-xl);
         font-weight: var(--font-weight-bold);
+        color: var(--color-secundaria);
     }
 
     h3 {
-        font-size: var(--font-size-xl);
+        font-size: var(--font-size-l);
         font-weight: var(--font-weight-bold);
     }
 
     h4 {
-        font-size: var(--font-size-l);
+        font-size: var(--font-size-xm);
         font-weight: var(--font-weight-bold);
     }
 
@@ -104,8 +107,9 @@
     }
 
     p {
-        font-size: var(--font-size-b);
+        font-size: var(--font-size-m);
         font-weight: var(--font-weight-regular);
+        color: var(--color-neutra-medium);
 
     }
 

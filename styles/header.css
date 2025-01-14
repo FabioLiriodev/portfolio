@@ -119,10 +119,11 @@
 
     
 #nav.active .nav__list {
-    height: calc(100vh - 100px);
+    height: 100vh;
     visibility: visible;
     transform:translateX(0);
     background: transparent;
+    backdrop-filter: blur(50px);
 
 }
 
