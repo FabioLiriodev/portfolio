@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url(./header.css);
+@import url(./footer.css);
+
+:root {
+    font-size: 16px;
+    --font-family-titulo: 'Raleway', sans-serif;
+    --font-family-texto: 'Open Sans', sans-serif;
+    --font-weight-bold: 700;
+    --font-weight-medium: 500;
+    --font-weight-regular: 400;
+    
+    --font-size-3xl: 5rem;
+    --font-size-2xl: 4rem;
+    --font-size-xl: 3rem;
+    --font-size-l: 2.5rem;
+    --font-size-xm: 2rem;
+    --font-size-m: 1.5rem;
+    --font-size-i: 1.25rem;
+    --font-size-b: 1rem;
+    --font-size-s: 0.75rem;
+    --font-size-xs: 0.5rem;
+
+    --color-background: #181710;
+    --color-destaque: #00bf63;
+    --color-titulo: #E9C46A;
+    --color-secundaria: #F4A261;
+    --color-neutra-dark: #2A2A2A;
+    --color-neutra-medium: #E5E1DA;
+    --color-neutra-light: #F5F5F5;
+
+    --padding-3xl: 5rem;
+    --padding-2xl: 4rem;
+    --padding-xl: 3rem;
+    --padding-l: 2.5rem;
+    --padding-xm: 2rem;
+    --padding-m: 1.5rem;
+    --padding-s: 1rem;
+    --padding-xs: 0.5rem;
+
+    --gap-3xl: 5rem;
+    --gap-2xl: 4rem;
+    --gap-xl: 3rem;
+    --gap-l: 2.5rem;
+    --gap-xm: 2rem;
+    --gap-m: 1.5rem;
+    --gap-s: 1rem;
+    --gap-xs: 0.5rem;
+
+    --margin-3xl: 5rem;
+    --margin-2xl: 4rem;
+    --margin-xl: 3rem;
+    --margin-l: 2.5rem;
+    --margin-xm: 2rem;
+    --margin-m: 1.5rem;
+    --margin-s: 1rem;
+    --margin-xs: 0.5rem;
+
+    --border-radius-s: 4px;
+    --border-radius-m: 12px;
+    --border-radius-l: 20px;
+
+    --line-height: 1.2em;
+    --letter-spacing: 2px;
+
+    --max-width-block: 75rem;
+
+
+    h1, h2, h3, h4, h5 {
+        font-family: var(--font-family-titulo);
+    }
+
+    h1 {
+        font-size: var(--font-size-3xl);
+        font-weight: var(--font-weight-bold);
+    }
+
+    h2 {
+        font-size: var(--font-size-2xl);
+        font-weight: var(--font-weight-bold);
+    }
+
+    h3 {
+        font-size: var(--font-size-xl);
+        font-weight: var(--font-weight-bold);
+    }
+
+    h4 {
+        font-size: var(--font-size-l);
+        font-weight: var(--font-weight-bold);
+    }
+
+    h5 {
+        font-size: var(--font-size-m);
+        font-weight: var(--font-weight-bold);
+    }
+
+    body {
+        font-family: var(--font-family-texto);
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+        background-color: var(--color-background);
+    }
+
+    p {
+        font-size: var(--font-size-b);
+        font-weight: var(--font-weight-regular);
+
+    }
+
+}
