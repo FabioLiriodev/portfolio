@@ -1,0 +1,113 @@
+:root {
+    font-size: 16px;
+
+.sobre {
+    background-color: var(--color-neutra-medium-light);
+    height: 100vh;
+    padding: var(--padding-l);
+}
+
+.sobre__container {
+    max-width: var(--max-width-block);
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-m);
+}
+
+.sobre__titulo {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    line-height: var(--line-height);
+    color: var(--color-neutra-very-dark);
+}
+
+hr {
+    width: 10%;
+    box-sizing: border-box;
+    border: 5px solid var(--color-destaque-strong);
+    border-radius: var(--border-radius-l);
+}
+
+.sobre__container__bio {
+    display: flex;
+    gap: var(--gap-m);
+}
+
+.sobre__container__bio-conteudo {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: var(--gap-m);
+    width: 70%;
+}
+
+.bio__titulo {
+    color: var(--color-neutra-very-dark);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.bio__paragrafo {
+    line-height: 1.3;
+}
+
+.sobre__container__bio-botao {
+    border: 2px solid var(--color-neutra-very-dark);
+    border-radius: var(--border-radius-m);
+    height: 3rem;
+    width: 17.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.sobre__container__bio-botao-link {
+    padding: var(--padding-xs);
+    text-decoration: none;
+    text-align: center;
+    color: var(--color-neutra-very-dark);
+    text-transform: uppercase;
+    font-size: var(--font-size-i);
+
+}
+
+.sobre__container__bio-botao:hover, 
+.sobre__container__bio-botao:focus,
+.sobre__container__bio-botao-link:hover, 
+.sobre__container__bio-botao-link:focus
+ {
+    background-color: var(--color-neutra-dark);
+    color: var(--color-neutra-light);
+}
+
+.sobre__container__habilidades {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-m);
+}
+
+.habilidades__titulo {
+    color: var(--color-neutra-very-dark);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.habilidades__list {
+    display: flex;
+    gap: var(--gap-s);
+    flex-wrap: wrap;
+}
+
+.habilidades__item {
+    font-size: var(--font-size-i);
+    padding: var(--padding-xs);
+    background-color: #adb5bd;
+    color: var(--color-neutra-dark);
+}
+
+}
