@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta descripton="Este é o portfólio de Fábio Lirio, desenvolvedor Front-End Júnior">
+    <title>Portfólio de Fábio Lirio | Desenvolvedor Front-End</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="header__container">
+            <div class="header__logo">
+            <img class="header__logo__img" src="./assets/images/avatar-fabio-lirio.png" alt="avatar do Fábio Lirio">
+            <span class="header__logo__nome">Fábio Lirio</span>
+        </div>
+            <nav class="nav" id="nav">
+                <ul class="nav__list" id="menu" role="menu">
+                    
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a>
+                    </li>
+                    <li class="nav__item"><a href="portfolio.html" class="nav__link">Portfólio</a>
+                    </li>
+                    <li class="nav__item"><a href="index.html" class="nav__link">Experiência</a>
+                    </li>
+                    <li class="nav__item"><a href="about.html" class="nav__link">Sobre Mim</a>
+                    </li>
+                    <li class="nav__item"><a href="contato.html" class="nav__link">Contato</a>
+                    </li>
+
+                    <li class="nav__item nav__icons">
+                        <a href="#">
+                            <img src="./assets/icons/github-icon.svg" aria-label="Perfil do Github de Fábio Lirio" alt="meu perfil do Github">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/icons/linkedin-icon.svg" aria-label="Perfil do LinkedIn de Fábio Lirio" alt="meu perfil do LinkedIn">
+                        </a>
+                    </li>
+                </ul>
+                <button aria-label="abrir menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+                    <span id="hamburguer"></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="conteudo">
+        <section class="cta">
+            <div class="cta__container">
+                <div class="cta__container__texto">
+        <h1 class="cta__titulo">Olá, eu sou Fábio Lirio!</h1>
+        <p class="cta__paragrafo">Sou desenvolvedor Front-End com foco no desenvolvimento web visando acessibilidade e responsividade.Acesse meus projetos para conhecer mais sobre o meu trabalho!</p>
+    </div>
+    <div class="cta__container__botao">
+        <a href="projetos.html" class="cta__container__botao-link">Projetos</a>
+    </div>
+    <ul class="cta__sidebar">
+        <li class="sidebar__icons">
+            <a href="#">
+                <img src="./assets/icons/github-icon.svg" aria-label="Perfil do Github de Fábio Lirio" alt="Perfil do Github">
+            </a>
+            <a href="#">
+                <img src="./assets/icons/linkedin-icon.svg" aria-label="Perfil do LinkedIn de Fábio Lirio" alt="Perfil do LinkedIn">
+            </a>
+            <a href="#">
+                <img src="./assets/icons/instagram-icon.svg" aria-label="Perfil do Instagram de Fábio Lirio" alt="Perfil do Instagram">
+            </a>
+        </li>
+    </ul>
+    </div>
+    </section>
+
+        <section class="sobre">
+            <div class="sobre__container">
+                <h2 class="sobre__titulo">Sobre mim</h2>
+                <hr/>
+                    <div class="sobre__container__bio">
+                        <div class="sobre__container__bio-conteudo">
+                        <h3 class="bio__titulo">Um pouco da minha biografia</h3>
+                        <p class="bio__paragrafo">Sou estudante de Front-End na Escola de Programação da Alura. Durante a trajetória de estudos, me identifiquei com o desenvolvimento Front-End e com as linguagens HTML, CSS e Javascript.</p>
+                        <p class="bio__paragrafo">Você pode acessar detalhes dos meus principais projetos na sessão de projetos!</p>
+                        <p class="bio__paragrafo">Sinta-se livre para me dar feedbacks sobre o meu portfólio e fique a vontade para se conectar comigo no meu Linked In ou Github.</p>
+                        <p class="bio__paragrafo">Meu objetivo é atuar como desenvolvedor web front-end júnior e estou disponível para novas oportunidades de emprego para que eu possa crescer e evoluir na área.</p>
+                            <div class="sobre__container__bio-botao">
+                                <a href="contato.html" class="sobre__container__bio-botao-link">Entre em contato</a>
+                            </div>
+                        </div>
+                            <div class="sobre__container__habilidades">
+                                <h4 class="habilidades__titulo">Minhas Habilidades</h4>
+                                <ul class="habilidades__list">
+                                    <li class= "habilidades__item">HTML</li>
+                                    <li class="habilidades__item">CSS</li>
+                                    <li class="habilidades__item">Javascript</li>
+                                    <li class="habilidades__item">Figma</li>
+                                    <li class="habilidades__item">Git</li>
+                                    <li class="habilidades__item">Github</li>
+                                </ul>
+                            </div>
+                    </div>
+            </div>
+        </section>
+
+        <section class="projetos">
+            <div class="projetos__container">
+                <h2 class="projetos__titulo">Projetos em andamento</h2>
+                <hr/>
+                <p class="projetos__texto">Conheça mais sobre os projetos pessoais que desenvolvo com o objetivo de aprimorar minhas habilidades no desenvolvimento Front-End</p>
+                <div class="projetos__card">
+                    <div class="projetos__card__img">
+                    <img src="./assets/images/Arpeggio-logo-ajustado.png" alt="logo do Arpeggio">
+                </div>
+                    <div class="projetos__card__descricao">
+                        <h2 class="projetos__card__descricao-titulo">Arpeggio</h2>
+                        <p class="projetos__card__descricao-paragrafo">O Arpeggio é um comparador de streaming de música em que o usuário pode comparar o número de álbuns e singles da sua banda ou número de episódios podcast favoritos em diversos streamings de música.</p>
+                        <p class="projetos__card__descricao-paragrafo">Desta forma, o usuário descobre qual é a assinatura de serviço de streaming mais vantajosa em relação a sua preferência musical.</p>
+                    </div>
+                </div>
+                <div class="projetos__card">
+                    <div class="projetos__card__img">
+                    <img src="./assets/images/Aqui-tem-cerveja-logo-ajustado.png" alt="Logo do Aqui Tem Cerveja">
+                </div>
+                    <div class="projetos__card__descricao">
+                        <h2 class="projetos__card__descricao-titulo">Aqui tem Cerveja</h2>
+                        <p class="projetos__card__descricao-paragrafo">O Aqui tem Cerveja é um site de uma cervejaria artesanal fictícia que conta com um harmonizador e um seletor de cervejas artesanais.</p>
+                        <p class="projetos__card__descricao-paragrafo">O usuário encontra quais os alimentos que combinam com cervejas artenais, ou simplesmente seleciona a cerveja artesanal que combina com sua preferência.</p>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__container__column">
+                <span class="footer__logo__nome">Fábio Lirio</span>
+                <p class="footer__texto">Desenvolvedor Front-End</p>
+                <a class="footer__atualizacao" href="#">
+                    <img src="./assets/icons/green-dot-icon.svg">
+                    Status: atualizado</a>
+            </div>
+            <div class="footer__container__column-list">
+                <ul class="footer__list">
+                    
+                    <li class="footer__item"><a href="index.html" class="nav__link footer__link">Home</a>
+                    </li>
+                    <li class="footer__item"><a href="index.html" class="nav__link footer__link">Experiência</a>
+                    </li>
+                    <li class="footer__item"><a href="portfolio.html" class="nav__link footer__link">Portfólio</a>
+                    </li>
+                    <li class="footer__item"><a href="about.html" class="nav__link footer__link">Sobre Mim</a>
+                    </li>
+                    <li class="footer__item"><a href="contato.html" class="nav__link footer__link">Contato</a>
+                    </li>
+            </div>
+            <div class="social__icons">
+                <ul class="footer__item">
+                    <li class="footer__item footer__icons">
+                        <a href="#">
+                            <img src="./assets/icons/github-icon-clara.svg" aria-label="Perfil do Github de Fábio Lirio" alt="meu perfil do Github">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/icons/linkedin-icon-clara.svg" aria-label="Perfil do LinkedIn de Fábio Lirio" alt="meu perfil do LinkedIn">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/icons/instagram-icon-clara.svg" aria-label="Perfil do Instagram de Fábio Lirio" alt="meu perfil do Instagram">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__container__line">
+            
+        
+        <small class="footer__small">Desenvolvido por Fábio Lirio - 2025</small>
+    </div>
+    </footer>
+    <script src="./app/mobile-navbar.js"></script>
+</body>
+</html>
