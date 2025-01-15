@@ -41,7 +41,8 @@
         align-items: center;
         justify-content: center;
         margin: 0 auto;
-        width: 33.3%;
+        width: 20%;
+        transition: 0.3s ease;
     }
 
     .cta__paragrafo {
@@ -61,8 +62,8 @@
 .cta__container__botao:hover,
 .cta__container__botao-link:hover {
     color: var(--color-neutra-dark);
-    background-color: var(--color-destaque);
-    border: 2px solid var(--color-destaque);    
+    background-color: var(--color-hover-cta);
+    border: 2px solid var(--color-hover-cta);   
     
     }
 

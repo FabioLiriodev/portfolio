@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 @import url(./header.css);
-@import url(./main.css);
+@import url(./section-cta.css);
+@import url(./section-about.css);
+@import url(./section-projetos.css);
 @import url(./footer.css);
 
 :root {
@@ -11,8 +13,8 @@
     --font-weight-medium: 500;
     --font-weight-regular: 400;
     
-    --font-size-3xl: 5rem;
-    --font-size-2xl: 4rem;
+    --font-size-3xl: 4rem;
+    --font-size-2xl: 3.5rem;
     --font-size-xl: 3rem;
     --font-size-l: 2.5rem;
     --font-size-xm: 2rem;
@@ -22,13 +24,17 @@
     --font-size-s: 0.75rem;
     --font-size-xs: 0.5rem;
 
-    --color-background: #181710;
-    --color-destaque: #00bf63;
+    --color-background: #252422;
+    --color-destaque-strong: #ffd819;
+    --color-destaque: #E9C46A;
     --color-titulo: #E9C46A;
     --color-secundaria: #F4A261;
-    --color-neutra-dark: #2A2A2A;
-    --color-neutra-medium: #E5E1DA;
-    --color-neutra-light: #F5F5F5;
+    --color-neutra-very-dark: #131316;
+    --color-neutra-dark: #252422;
+    --color-neutra-medium: #dee2e6;
+    --color-neutra-medium-light:#e9ecef;
+    --color-neutra-light: #f8f9fa;
+    --color-hover-cta: #ffea00;
 
     --padding-3xl: 5rem;
     --padding-2xl: 4rem;
@@ -74,27 +80,33 @@
     h1 {
         font-size: var(--font-size-2xl);
         font-weight: var(--font-weight-bold);
-        color: var(--color-titulo);
+        color: var(--color-neutra-very-dark);
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        line-height: var(--line-height);
     }
 
     h2 {
-        font-size: var(--font-size-xl);
+        font-size: var(--font-size-xm);
         font-weight: var(--font-weight-bold);
-        color: var(--color-secundaria);
+        line-height: 1.6;
+        color: var(--color-neutra-dark);
+        text-transform: uppercase;
     }
 
     h3 {
-        font-size: var(--font-size-l);
+        font-size: var(--font-size-m);
         font-weight: var(--font-weight-bold);
+        text-transform: uppercase;
     }
 
     h4 {
-        font-size: var(--font-size-xm);
+        font-size: var(--font-size-i);
         font-weight: var(--font-weight-bold);
     }
 
     h5 {
-        font-size: var(--font-size-m);
+        font-size: var(--font-size-b);
         font-weight: var(--font-weight-bold);
     }
 
@@ -107,10 +119,10 @@
     }
 
     p {
-        font-size: var(--font-size-m);
+        font-size: var(--font-size-i);
         font-weight: var(--font-weight-regular);
-        color: var(--color-neutra-medium);
 
     }
 
 }
+/*#00bf63*/
