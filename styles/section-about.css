@@ -26,7 +26,7 @@
 }
 
 hr {
-    width: 10%;
+    width: 2%;
     box-sizing: border-box;
     border: 5px solid var(--color-destaque-strong);
     border-radius: var(--border-radius-l);
@@ -108,6 +108,14 @@ hr {
     padding: var(--padding-xs);
     background-color: #adb5bd;
     color: var(--color-neutra-dark);
+}
+
+@media screen and(max-width: 768px) {
+    .sobre__container__bio {
+        display: flex;
+        flex-direction: column;
+    }
+    
 }
 
 }

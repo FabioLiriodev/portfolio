@@ -41,7 +41,7 @@
         align-items: center;
         justify-content: center;
         margin: 0 auto;
-        width: 20%;
+        width: 33.3%;
         transition: 0.3s ease;
     }
 
@@ -82,5 +82,30 @@
         align-items: center;
         justify-content: space-between;
         gap:var(--gap-l);
+    }
+
+    @media screen and (max-width: 1200px) {
+        .cta {
+            padding: var(--padding-m) var(--padding-s);
+        }
+    }
+
+    @media screen and (max-width: 703px) {
+        .cta {
+            padding: var(--padding-s);
+        }
+        .cta__container {
+            gap: var(--gap-l);
+        }
+        .cta__container__texto {
+            gap: var(--gap-l);
+        }
+
+        .cta__sidebar {
+            display: none;
+        }
+        .cta__container__botao {
+            width: 50%;
+        }
     }
 }
